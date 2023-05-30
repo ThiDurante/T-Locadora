@@ -35,4 +35,7 @@ export class CreateMovieDto {
   dislikes = '0';
 
   available = true;
+
+  @IsString()
+  timesRented = '0';
 }

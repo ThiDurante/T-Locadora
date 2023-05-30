@@ -5,6 +5,7 @@ const seedUser = [
     username: 'admin',
     age: '30',
     role: 'admin',
+    history: [],
   },
 ];
 

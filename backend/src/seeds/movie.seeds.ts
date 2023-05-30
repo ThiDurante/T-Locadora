@@ -8,6 +8,7 @@ const seedMovies = [
     quantity: '10',
     rentalPrice: '10',
     available: true,
+    timesRentend: '0',
   },
 ];
 

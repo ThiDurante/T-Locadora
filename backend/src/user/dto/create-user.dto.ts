@@ -9,4 +9,6 @@ export class CreateUserDto {
   password: string;
   @IsNotEmpty()
   age: number;
+  @IsNotEmpty()
+  history: [];
 }
